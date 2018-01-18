@@ -230,7 +230,7 @@ public class dog {
                 setState(States.HAPPY);
                 break;
             case IGNORE:
-                setState(States.ANGRY); 			// Currently the dog always stays angry, not matter what you do
+                setState(States.SLEEPY); 			// Currently the dog always stays angry, not matter what you do
                 break;
         }
     }
